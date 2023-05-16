@@ -10,7 +10,7 @@
     
     <div id="app">
 
-        <div v-for="mail in mails">{{mails}}</div>
+        <div v-for="mail in mails" v-show="mails.length == 10">{{mail}}</div>
 
     </div>
 
